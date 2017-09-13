@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Emily's Madlib</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Here's a madlib!</h1>
+      <div>
+        <form id="formOne">
+            <div class="form-group">
+              <label for="person">A name</label>
+              <input id="person" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animal">An animal</label>
+              <input id="animal" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="verb">A verb with "ing"</label>
+              <input id="verb" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="city">A city</label>
+              <input id="city" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="noun">A noun</label>
+              <input id="noun" class="form-control" type="text">
+            </div>
+      </div>
+        <button type="submit" class="btn">Generate story!</button>
+    </form>
+
+      <div id="story">
+        <h2>Story Generated!</h2>
+        <p>While on a school field trip in <span class="city"></span>, <span class="person"></span> and his/her/their classmates went to the zoo and were amazed when they saw the <span class="animal"></span> on display! <span class="person"></span> had learned a lot about the animals growing up as a kid, and knew they were famous for <span class="verb"></span>. <span class="person"></span> was so excited after the encounter he/she/they bought a <span class="noun"></span> at the gift shop in celebration!</p>
+      </div>
+    </div>
+  </body>
+</html>
